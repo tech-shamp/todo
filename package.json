@@ -1,0 +1,19 @@
+{
+  "name": "TODO Application",
+  "version": "1.0.0",
+  "description": "Create an application which consists of almost all types of mathamatics equations, conversion & solutions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "mathamatics",
+    "equations",
+    "conversion",
+    "solutions"
+  ],
+  "author": "TechShamp",
+  "license": "ISC"
+}
