@@ -1,0 +1,48 @@
+/* Fonts */
+@font-face {
+  font-family: "Heading";
+  src: url(fonts/Poppins-Bold.ttf);
+}
+@font-face {
+  font-family: "Content";
+  src: url(fonts/Inter-400.woff2);
+}
+
+/* Variables & Colors */
+:root {
+  --black: #0e0d0d;
+  --white: #f3f3f3;
+  --sky-blue: #3375aa;
+  --sky-blue-accent: #3aa0ff;
+}
+
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Document Selector */
+html {
+  font-size: 90%;
+}
+body {
+  font-family: "Content";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Heading";
+  text-transform: uppercase;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--black);
+}
