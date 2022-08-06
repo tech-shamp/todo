@@ -1,5 +1,5 @@
 {
-  "name": "TODO Application",
+  "name": "todo-application",
   "version": "1.0.0",
   "description": "Create an application which consists of almost all types of mathamatics equations, conversion & solutions.",
   "main": "index.js",
