@@ -80,9 +80,9 @@ a {
 .links a:active,
 .links a:hover {
   cursor: pointer;
-  color: var(--sky-blue-accent);
-  transition: 0.2s ease-in-out;
-  -webkit-transition: 0.2s ease-in-out;
-  -moz-transition: 0.2s ease-in-out;
-  -o-transition: 0.2s ease-in-out;
+  opacity: 0.8;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
 }
