@@ -18,6 +18,7 @@
 :root {
   --black: #0e0d0d;
   --white: #f3f3f3;
+  --background: #1b1f24;
   --bg: #01011d;
   --sky-blue: #00101d;
   --sky-blue-accent: #264a6d;
@@ -36,6 +37,7 @@ html {
 }
 body {
   font-family: "Content";
+  background: var(--background);
 }
 h1,
 h2,
@@ -79,8 +81,16 @@ a {
   letter-spacing: 0.04rem;
   line-height: 2rem;
 }
-.links a:active,
 .links a:hover {
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+}
+
+.links a:active {
+  -o-transition: 0.2s;
   cursor: pointer;
   opacity: 0.8;
   transition: 0.2s;
